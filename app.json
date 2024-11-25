@@ -1,0 +1,22 @@
+{
+    "name": "Dullah Tech 255 🇹🇿",
+    "description": "Dullahtech WA bots, Created by Dullahmd",
+    "logo": "https://files.catbox.moe/hegdag.jpg",
+    "repository": "https://github.com/abdallahsalimjuma/Session/tree/main",
+    "keywords": ["FlashMd"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
